@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    Font-size: 15px;
+    font-family: "Lexend Deca",sans-serif;
+    background-color: #f2f2f2;
+}
+/* container */
+.container{
+    width: 100%;
+    margin: 100px auto;
+}
+
+/* card */
+.card{
+    width: 325px;
+    margin: 0 auto;
+    height: 440px;
+    padding-left: 48px;
+}
+
+.card p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 50px;
+    line-height: 25px;
+    opacity: 0.80;
+    max-width: 230px;
+}
+.card h2{
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display,serif;
+    font-size: 35px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+.card .icon{
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.attribution{
+    margin-bottom: 50px;
+}
+/* individual card styling */
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+    
+}
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius:  0 0 10px 10px;
+}
+
+/* buttons */
+.btn1{
+    color: hsl(31, 77%, 52%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+   
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+/* hover */
+.btn1:hover{
+    color: hsl(0, 0%, 95%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+}
+.btn2:hover{
+    color: hsl(0, 0%, 95%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+.btn3:hover{
+    color: hsl(0, 0%, 95%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 1000px) {
+    .container{
+    display: flex;
+    width: 960px;
+    }
+    #sedans{
+        border-radius: 10px 0 0 10px;
+    }
+    #suvs{
+        background-color: hsl(184, 100%, 22%);
+    }
+    #luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-radius:  0 10px 10px 0;
+    }
+    .attribution{
+        position: absolute;
+        width: 100%;
+        margin-bottom: auto;
+    }
+    
+
+}
