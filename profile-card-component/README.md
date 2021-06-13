@@ -6,8 +6,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profilecard-using-css-variables-flexbox-and-position-property-YtCO-vvBo)
-- Live Site URL: [Add live site URL here](https://nervous-kalam-122647.netlify.app/)
+- Solution URL: (https://www.frontendmentor.io/solutions/profilecard-using-css-variables-flexbox-and-position-property-YtCO-vvBo)
+- Live Site URL: (https://nervous-kalam-122647.netlify.app/)
 
 ### The challenge
 
