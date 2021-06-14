@@ -47,14 +47,12 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+For the first time before starting the project, I sketched a Rough drawing of the project on a piece of paper and straightaway I started seeing the results. I was better prepared this time to tackle the mobile first workflow and easily used flexbox in media queries to make it desktop responsive. I completed the project a lot quicker too compared to previous projects. Definitely going to implement this drawing habit for all my future projects. 
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
+There were many repeated piece of codes in my project. I can use Sass to minimise the repeatation. Will try to include sass in my future project.
 
 ## Author
 
