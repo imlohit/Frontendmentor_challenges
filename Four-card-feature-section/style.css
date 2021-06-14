@@ -1,26 +1,100 @@
-/* ## Colors
+:root{
+    /* Colors */
 
-### Primary
+    /* Primary */
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+        /* ### Neutral */
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
 
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
+    /* font */
+    --fs: 15px;
+    --ff: 'Poppins', sans-serif; 
+    /* Weights: 200, 400, 600 */
 
-### Neutral
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%)
+body{
+   background-color: var(--very-light-gray);
+   font-family: var(--ff);
+}
 
-## Typography
+/* header */
 
-### Body Copy
+header{
+    text-align: center;
+    padding-top: 30px;
+}
 
-- Font size: 15px
+header .header-quote{
+    color: var(--grayish-blue);
+    font-weight: normal;
+}
 
-### Fonts
+header .header-main{
+    opacity: 0.9;
+    color: var(--very-dark-blue);
+}
+header p{
+    margin-top: 10px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+}
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 200, 400, 600
-## Typography */
+header,main{
+    width: 350px;
+    margin: 0 auto;
+}
+
+header,.card{
+    height: 250px;
+    margin-top: 30px;
+}
+
+/* main */
+
+main .card{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+main .card-img-holder{
+    margin-top: 20px;
+}
+
+.card-img-holder img{
+    margin-left: 220px;
+}
+.card h2{
+    color: var(--very-dark-blue);
+}
+.card p{
+    color: var(--grayish-blue);
+    margin-top: 10px;
+}
+#cyan{
+    border-top: 5px solid var(--cyan);
+}
+#red{
+    border-top: 5px solid var(--red);
+}
+#orange{
+    border-top: 5px solid var(--orange);
+}
+#blue{
+    border-top: 5px solid var(--blue);
+}
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
