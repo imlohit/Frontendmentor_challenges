@@ -1,0 +1,105 @@
+
+// Primary
+$cyanDark : #00A3A3;
+$cyanLight: #00D1D1;
+$yellow : hsl(71, 73%, 54%);
+// Neutral
+$lightGray : hsl(204, 43%, 93%);
+$grayishBlue : hsl(218, 22%, 67%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $lightGray;
+    font-size: 16px;
+     font-family: 'Karla', sans-serif;
+    // Weights: 400, 700
+}
+main{
+    width: 345px;
+    margin: 50px auto 0 auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+
+    .box-top{
+        background-color: #fff;
+        padding: 20px;
+        #header{
+            color: $cyanDark;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        #sub-header{
+            color: $yellow;
+            margin-bottom: 20px;
+        }
+        p{
+            color: $grayishBlue;
+            line-height: 25px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .box-bottom {
+        .price{
+            background-color: $cyanDark;
+            padding: 20px;
+            color: #fff;
+
+            .price-header{
+                margin-bottom: 20px;
+            }
+            .price-count{
+                color: $lightGray;
+                margin-bottom: 10px;
+                #special{
+                    font-size: 2em;
+                    font-weight: 700;
+                    color: #fff;
+                    margin-right: 10px;
+                }
+            }
+
+            #btn{
+                margin-top: 30px;
+                width: 90%;
+                margin-left: 5%;
+                background-color: $yellow;
+                border-radius: 10px;
+                outline: none;
+                font-size: 1.5em;
+                border: none;
+                padding: 10px;
+                color: #fff;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+           
+        }
+        #conclusion{
+            background-color: $cyanLight;
+            padding: 20px;
+
+            h2{
+                color: #fff;
+            }
+            p{
+                color: $lightGray;
+                opacity: 0.9;
+                margin-top: 20px;
+            }
+    }
+        
+        
+           
+    
+    }
+}
+
+footer{
+    margin: 30px auto;
+}
