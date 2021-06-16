@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #090b1a;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 340px;
+  margin: 10vh auto 6vh auto;
+  background-color: #1b1938;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .main {
+  padding: 20px;
+}
+
+.container .main .main-content .main-header {
+  margin-top: 10px;
+  color: white;
+  opacity: 0.9;
+}
+
+.container .main .main-content .main-header #special {
+  color: #aa5cdb;
+}
+
+.container .main .main-content p {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.75);
+  opacity: 0.7;
+  line-height: 25px;
+}
+
+.container .main .main-stats {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.container .main .main-stats .stats {
+  margin-bottom: 15px;
+}
+
+.container .main .main-stats .stats h2 {
+  color: white;
+  font-size: 1.4em;
+}
+
+.container .main .main-stats .stats p {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+}
+
+.attribution {
+  margin-bottom: 30px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
