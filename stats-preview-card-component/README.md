@@ -48,19 +48,18 @@ Your users should be able to:
 - VsCode
 - Mobile-first workflow
 
-
-*
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-
+- Used [overflow: hidden] property to properly apply border-radius.
+- Applied color overlay over an image for the first time. [mix-blend-mode: multiply] 
+- This was my second project using SCSS. Slowly getting the hang of it.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
+- I have made it just mobile and desktop responsive. Need to work on more screen breakpoints in future projects.
+- Need to implement use of 'em' and 'rem'. I am used to 'px' which I know is considered bad practice for some properties. 
+- Also need to develop habit of using proper tags in html markup. Avoid using heading tag unnecessarily when not required.
+- Learn HTML5 Accessibility habits.  
 
 ## Author
 
