@@ -35,7 +35,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: https://github.com/imlohit/Frontendmentor_challenges/tree/main/stats-preview-card-component
-- Live Site URL: https://app.netlify.com/sites/practical-bose-fff9d7/overview
+- Live Site URL: https://practical-bose-fff9d7.netlify.app/
 
 ## My process
 
