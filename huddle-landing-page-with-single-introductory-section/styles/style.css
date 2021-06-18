@@ -70,19 +70,70 @@ body {
   color: #fff;
 }
 
-.container .huddle-main .huddle-follow {
+.container .huddle-follow {
   margin-top: 50px;
+  text-align: center;
 }
 
-.container .huddle-main .huddle-follow #twitter:hover {
+.container .huddle-follow #twitter:hover {
   color: #e882e8;
   border-color: #e882e8;
 }
 
-.container .huddle-main .huddle-follow .icons {
+.container .huddle-follow .icons {
   margin-right: 5px;
   border: 1px solid white;
   border-radius: 50%;
   padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: url(../images/bg-desktop.svg);
+    background-color: #674baf;
+  }
+  .container {
+    width: 990px;
+  }
+  .container .huddle-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .huddle-main .huddle-intro-section {
+    width: 465px;
+    text-align: left;
+    padding: 20px;
+  }
+  .container .huddle-main .huddle-img-holder {
+    width: 450px;
+    height: 350px;
+  }
+  .container .huddle-follow {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+  .container .huddle-main .huddle-intro-section {
+    width: 570px;
+    padding: 40px;
+  }
+  .container .huddle-main .huddle-intro-section .section-heading {
+    font-size: 1.7em;
+  }
+  .container .huddle-main .huddle-intro-section .section-about {
+    margin-bottom: 30px;
+  }
+  .container .huddle-main .huddle-img-holder {
+    width: 550px;
+    height: 450px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
