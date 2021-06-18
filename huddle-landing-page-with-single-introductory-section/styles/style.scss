@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+// font-family
+$ff-headings : 'Poppins', sans-serif; /*Weights: 400, 600*/
+$ff-body : 'Open Sans', sans-serif; /*weights : 400 */
+// color
+$violet : hsl(257, 40%, 49%);
+$soft-Magenta: hsl(300, 69%, 71%);
+$font-color : #fff;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/bg-mobile.svg) no-repeat;
+    background-position: 50% 0;
+    background-color: $violet;
+    font-family: $ff-body;
+}
+.container{
+    width: 375px;
+    margin: 0 auto;
+    padding: 30px;
+    color: $font-color;
+    
+    .header{
+        font-family: $ff-headings;
+    }
+    
+    .huddle-main{
+        text-align: center;
+        .huddle-img-holder{
+            background: url(../images/illustration-mockups.svg) no-repeat;
+            background-size: 100% 100%;
+            height: 200px;
+            margin-top: 40px;
+        }
+        .huddle-intro-section{
+            margin-top: 40px;
+            .section-heading{
+                font-family: $ff-headings;
+                max-width: 300px;
+                margin-bottom: 20px;
+            }
+            .section-about{
+                opacity: 0.7;
+                margin-bottom: 20px;
+            }
+            .btn{
+                transition: all 800ms;
+                width: 200px;
+                padding: 15px;
+                border-radius: 25px;
+                outline: none;
+                border: none;
+                color: $violet;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                &:hover{
+                    background-color: $soft-Magenta;
+                    color: $font-color;
+                }
+            }
+        }
+        .huddle-follow{
+            margin-top: 50px;
+            #twitter{
+                &:hover{
+                    color: $soft-Magenta;
+                    border-color: $soft-Magenta;
+                }
+            }
+            .icons{
+                margin-right: 5px;
+                border: 1px solid white;
+                border-radius: 50%;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+
+
+
