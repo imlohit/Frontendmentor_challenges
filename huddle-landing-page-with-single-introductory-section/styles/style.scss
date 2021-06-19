@@ -60,6 +60,7 @@ body{
                 &:hover{
                     background-color: $soft-Magenta;
                     color: $font-color;
+                    cursor: pointer;
                 }
             }
         }
@@ -68,21 +69,24 @@ body{
     .huddle-follow{
         margin-top: 50px;
         text-align: center;
-        #twitter{
-            &:hover{
-                color: $soft-Magenta;
-                border-color: $soft-Magenta;
-            }
-        }
         .icons{
             margin-right: 5px;
             border: 1px solid white;
             border-radius: 50%;
             padding: 5px;
+            &:hover{
+                color: $soft-Magenta;
+                border-color: $soft-Magenta;
+            }
         }
     }
 }
-
+@media screen and (min-width: 375px) {
+    body{
+        background: url(../images/bg-desktop.svg);
+        background-color: $violet;
+    }
+}
 @media screen and (min-width: 992px) {
     
     body{

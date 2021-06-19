@@ -68,6 +68,7 @@ body {
 .container .huddle-main .huddle-intro-section .btn:hover {
   background-color: #e882e8;
   color: #fff;
+  cursor: pointer;
 }
 
 .container .huddle-follow {
@@ -75,16 +76,23 @@ body {
   text-align: center;
 }
 
-.container .huddle-follow #twitter:hover {
-  color: #e882e8;
-  border-color: #e882e8;
-}
-
 .container .huddle-follow .icons {
   margin-right: 5px;
   border: 1px solid white;
   border-radius: 50%;
   padding: 5px;
+}
+
+.container .huddle-follow .icons:hover {
+  color: #e882e8;
+  border-color: #e882e8;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    background: url(../images/bg-desktop.svg);
+    background-color: #674baf;
+  }
 }
 
 @media screen and (min-width: 992px) {
